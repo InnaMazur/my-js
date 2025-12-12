@@ -30,8 +30,8 @@
 //2
 
 let numberPop = [1,2,3,4];
-function ArrPop(arr,element) {
-    arr.pop(element);
+function ArrPop(arr) {
+    arr.pop();
     return arr;  
 }
 console.log(ArrPop (numberPop));
@@ -62,8 +62,8 @@ console.log(shiftArr);
 
 //2
 let numberShift = [1,2,3,4];
-function arrShift(arr,element) {
-    arr.shift(element);
+function arrShift(arr) {
+    arr.shift();
     return arr;
 }
 console.log(arrShift(numberShift));
