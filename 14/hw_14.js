@@ -9,7 +9,7 @@ headerEl.style.padding = '50px';
 headerEl.style.backgroundColor = 'yellow';
 headerEl.style.textAlign = 'center';
 document.body.prepend(headerEl);
-console.log(headerEl);
+// console.log(headerEl);
 
 //3 - 4
 
@@ -67,7 +67,7 @@ createDivs();
 
 let [...divs] = document.querySelectorAll('.container div');
 divs.forEach(div=>{
-    div.classList.add('.circle-elemt');
+    div.classList.add('circle-elemt');
 })
 
 
