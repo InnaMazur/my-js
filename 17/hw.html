@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-17t</title>
+    <script src="hw17.js"></script>
+
+    <style>
+        .field{
+            margin-bottom: 15px;
+        }
+        #result{
+            margin-top: 10px;
+        }
+        button{
+            margin-top: 15px;
+        }
+
+        li{
+            list-style: none;
+            margin-left: 10px;
+        }
+        li button{
+            margin-left: 10px;
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="field">
+        <label for="amount">Сумма в гривнах: <input type="number" id="amount" value="100"></label> 
+    </div>
+    
+    <div class="field">
+        <label for="rate">Курс (грв - евро): <input type="number" id="rate" value="0.027"></label> 
+    </div>
+  
+    <button id="convertBtn">Конвертировать</button> <br>
+    <div id="result">Result :</div>
+
+
+    <!-- 2 -->
+
+<h2>Список задач</h2>
+<input type="text" id="Input" placeholder="Введите задачу">
+<button id="addBtn">Добавить</button>
+
+<ul id="List"></ul>
+
+</body>
+</html>
