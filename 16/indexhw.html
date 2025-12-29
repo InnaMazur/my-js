@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hHW-16t</title>
+    <script src="hw-16.js"></script>
+    <style>
+        .info{
+            width: 50px;
+            height: 50px;
+            margin: 50px auto;
+            border: 2px solid black;
+        }
+
+        .textBlock{
+            position: relative;
+            padding: 50px;
+            background-color: yellow;
+        }
+
+        .positionList{
+            display: none;
+            padding:20px;
+            position: absolute;
+            background-color: lightblue;
+            border: 2px solid black;
+        }
+        .positionList li{
+            list-style: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .positionList li:hover{
+            background-color: gray;
+        }
+        img{
+            display: block;
+            margin: 50px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+        }
+
+        .gameArea{
+            width: 500px;
+            height: 500px;
+            border: 2px solid black;
+            margin: 50px auto;
+            position: relative;
+            background-color: lightgreen;
+        }
+        .gameSquare{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+          
+        }
+
+        .container{
+            width: 400px;
+            height: 300px;
+            border: 2px solid black;
+            margin: 50px auto;
+            position: relative;
+            background-color: lightgray;
+            display: block;
+        }
+        .drag{
+            width:50px;
+            height: 50px;
+            background-color: orange;
+            position: absolute;
+            top: 0;
+            left: 0; 
+        }
+
+    
+    </style>
+</head>
+<body>
+
+   <!-- 1  -->
+<div class="info"></div>
+
+<!-- 2 -->
+
+<div class="textBlock"> Press somewhere</div>
+
+<ul class="positionList">
+    <li>Put on the right</li>
+    <li>Put on the left</li>
+    <li>Put on the middle</li>
+</ul>
+
+<!-- 3 -->
+
+<img src="img/slide-second2.png" alt="slide">
+
+<!-- 4 -->
+ 
+<div class="gameArea"></div>
+<div class="gameSquare"></div>
+
+<!-- 4.2 -->
+
+
+
+
+<!-- 5 -->
+
+<div class="container"></div>
+<div class="drag"></div>
+
+
+</body>
+</html>
