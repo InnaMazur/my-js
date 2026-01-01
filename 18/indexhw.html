@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW- 18</title>
+    <script src="hw18.js"></script>
+</head>
+<body>
+    
+    <!-- 1 -->
+     <form action="">
+
+        <p>
+            Select color
+        </p>
+        <div>
+            <input type="radio" name="color" id="red" value="red">
+            <label for="red">Red</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="color" id="green" value="green">
+            <label for="green">Green</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="color" id="yellow" value="yellow">
+            <label for="yellow">Yellow</label>
+        </div>
+        
+     </form>
+
+     <p class="colorInfo"> Your color  <span></span></p>
+
+
+     <!-- 2 -->
+
+<div>
+    <label for="h1">
+        <input type="checkbox" name="hobby" id="h1" value="read">
+        Read
+    </label>
+</div>
+
+<div>
+    <label for="h2">
+        <input type="checkbox" name="hobby" id="h2" value="ski">
+        Ski
+    </label>
+</div>
+
+<div>
+    <label for="h3">
+        <input type="checkbox" name="hobby" id="h3" value="travel">
+        Travel
+    </label>
+</div>
+<button class="showResult"> Show hobby</button>
+<div class="resultBox"></div>
+
+
+<!-- 3 -->
+
+
+<h3>Select city</h3>
+
+<select name="city" id="city">
+    <option value="">Select your city</option>
+    <option value="Kiev">Kiev</option>
+    <option value="London">London</option>
+    <option value="Berlin">Berlin</option>
+</select>
+<p class="cityResult"></p>
+
+
+<!-- 4 -->
+
+<h2>Rate the service</h2>
+
+<form id="ratingForm">
+  <div>
+    <input type="radio" id="rate1" name="rating" value="1">
+<label for="rate1">1</label>
+  </div>
+<div>
+    <input type="radio" id="rate2" name="rating" value="2">
+    <label for="rate2">2</label>
+</div>
+
+<div>
+    <input type="radio" id="rate3" name="rating" value="3">
+    <label for="rate3">3</label>
+</div>
+
+<div>
+    <input type="radio" id="rate4" name="rating" value="4">
+    <label for="rate4">4</label>
+</div>
+
+<div>
+    <input type="radio" id="rate5" name="rating" value="5">
+    <label for="rate5">5</label>
+</div>
+
+</form>
+
+<p id="result"></p>
+
+
+<!-- 5 -->
+
+<h2>Order pizza</h2>
+
+<form id="pizzaForm">
+<label for="pizzaSelect"> Choose pizza:</label>
+<select id="pizzaSelect">
+    <option value="margarita">Margarita</option>
+    <option value="pepperoni">Pepperoni</option>
+    <option value="hawaii">Hawaii</option>
+</select>
+
+<hr>
+
+<p>Chose size:</p>
+
+<label >
+    <input type="radio" name="size" value="small">
+    Small
+</label>
+
+<label >
+    <input type="radio" name="size" value="medium">
+    Medium
+</label>
+
+<label >
+    <input type="radio" name="size" value="large">
+    Large
+</label>
+
+<hr>
+<p>
+    Add topping(+25)
+</p>
+
+<label >
+    <input type="checkbox" name="topping" value="cheese">
+    Cheese
+</label>
+
+<label >
+    <input type="checkbox" name="topping" value="mushrooms">
+    Mushrooms
+</label>
+
+<label >
+    <input type="checkbox" name="topping" value="ham">
+    Hum
+</label>
+
+</form>
+
+<h3>Price: <span id="price">0</span></h3>
+
+
+
+</body>
+</html>
