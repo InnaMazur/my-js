@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-20</title>
+    <script src="hw.js"></script>
+    <style>
+:root{
+    --color-1:white;
+    --color-2:green;
+    --color-3:red;
+    --color-4:blue;
+    --color-5:yellow;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer{
+    text-align: center;
+    width: 150px;
+height: 167px;
+border-radius: 8px;
+border-width: 3px;
+border: 3px solid #353535;
+background-color: black;
+}
+
+.time{
+
+    font-size: 34px;
+margin-bottom: 30px;
+margin-top: 40px;
+color: white;
+}
+
+button{
+    padding: 10px 16px;
+    cursor: pointer;
+    height: 35px;
+
+}
+#startBtn{
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+}
+
+#resetBtn{
+    background-color: black;
+    color:white;
+    border-color: white;
+}
+
+
+    </style>
+</head>
+<body>
+
+  <!-- 2 -->
+
+  <button>
+    Press
+  </button>
+
+  <!-- 3 -->
+
+<button id="colorBtn"> Colors</button>
+
+<!-- 4 -->
+
+<div class="timer">
+    <div class="time">00:00</div>
+    <div class="buttons">
+        <button id="startBtn">Start</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+</div>
+
+</body>
+</html>
