@@ -1,0 +1,20 @@
+
+
+{
+    "name": "Bob",
+    "age": 25,
+    "isStudent": true,
+    "scores": [
+      95,
+      10,
+      44
+    ],
+    "address": {
+      "city": "Barcelona",
+      "country": "Spain"
+    },
+    "hobbies": [
+      "dance",
+      "travel"
+    ]
+  }

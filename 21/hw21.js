@@ -53,7 +53,7 @@ function loadTasks(){
 }
 
 function addTaskToDOM(taskText, index){
-    li = document.createElement('li');
+   let li = document.createElement('li');
     li.textContent = taskText;
 
     let deleteBtn = document.createElement('button');
@@ -86,7 +86,6 @@ taskInput.value ='';
     }
 
 
-
 //4
 
 let myData ={
@@ -102,18 +101,6 @@ let myData ={
 };
 let jsonData = JSON.stringify(myData,null, 2);
 console.log(jsonData);
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
