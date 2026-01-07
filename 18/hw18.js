@@ -2,22 +2,23 @@ window.onload = function () {
     
 //1
 
-let formEl = document.querySelector('form');
-let colorRes = document.querySelector('span');
-let [...radioButtons] = document.querySelectorAll('input[name="color"]');
-formEl.addEventListener('change', ()=>{
-let selectColor = '';
+// let formEl = document.querySelector('form');
+// let colorRes = document.querySelector('span');
+// let [...radioButtons] = document.querySelectorAll('input[name="color"]');
+// formEl.addEventListener('change', ()=>{
+// let selectColor = '';
 
-for(radiobutton of radioButtons){
-    if(radiobutton.checked){
-        selectColor = radiobutton.value;
-        break;
-    }
-}
-colorRes.innerText = selectColor;
+// for (const radiobutton of radioButtons){
+//     if(radiobutton.checked){
+//         selectColor = radiobutton.value;
+//         break;
+//     }
+// }
+// colorRes.innerText = selectColor;
 
 
-});
+// });
+
 
 
 //2
