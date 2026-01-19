@@ -1,7 +1,5 @@
 // Задани1 
 
-
-
 function sum (a,b){
     return a+b;
 }
@@ -78,25 +76,20 @@ calculator('-', 10,6);
 
 
 
-
-
-
-
-
-
 // Задание 2
 
-// function hiUser(value) {
-//     console.log(`Привет ${value}`);   
-// }
-// function wellcomUser(array, callback) {
-//     for( let i=0; i<array.length;i++){
+function hiUser(value) {
+    console.log(`Привет ${value}`);   
+}
+function wellcomUser(array, callback) {
+    for( let i=0; i<array.length;i++){
 
-//         callback(array[i]);
-//     }
-// }
+        callback(array[i]);
+    }
+}
 
-// wellcomUser(['Bob', ' Nick', 'Kite'], hiUser);
+wellcomUser(['Bob', ' Nick', 'Kite'], hiUser);
+
 
 // Задание 3
 
@@ -114,12 +107,14 @@ wellcomUser(user, hiUser);
 
 // Задание 4
 
-//  function showText(text = 'По умолчанию') {
-//     console.log(text);
-//  }
-//  showText();
-//  showText('Hi there');
+ function showText(text = 'По умолчанию') {
+    console.log(text);
+ }
+ showText();
+ showText('Hi there');
     
+
+
  // Задание 5
 
 
@@ -140,6 +135,7 @@ let string = [
 ];
 
 processString(string, showString);
+
 
 
 // Задание 6

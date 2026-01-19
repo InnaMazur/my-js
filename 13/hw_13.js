@@ -54,7 +54,6 @@ table.appendChild(row);
 
 //3
 
-
 const elementsArray = [
     { tag:'p', text:'Element 1' },
     { tag:'div', text:'Element 2'},
@@ -97,14 +96,6 @@ function createP(item) {
 for (let i = 0 ; i< elementArray.length; i++ ){
     createP(elementArray[i]);
 }
-
-
-
-
-
-
-
-
 
 
 }

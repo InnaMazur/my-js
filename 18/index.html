@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form18</title>
+    <script src="form.js"></script>
+</head>
+<body>
+    
+<h1>
+    Forms element
+</h1>
+
+<form action="">
+<p>
+    Select size:
+</p>
+<div>
+    <input type="radio" name="size" id="s" value="small">
+    <label for="s">Small</label>
+</div>
+
+<div>
+    <input type="radio" name="size" id="m" value="medium">
+    <label for="m">Medium</label>
+</div>
+
+<div>
+    <input type="radio" name="size" id="l" value="large">
+    <label for="l">Large</label>
+</div>
+
+</form>
+
+<p class="sizeInfo">  Its you <span></span></p>
+
+
+<!-- 2 -->
+
+<label for="accept"> Accept rules
+    <input type="checkbox" name="accept" id="accept">
+</label>
+
+
+<!-- 3 -->
+ <div>
+    <label for="t1">
+        <input type="checkbox" name="transport" id="t1" value="car">
+        Car
+    </label>
+ </div>
+
+ <div>
+    <label for="t1">
+        <input type="checkbox" name="transport" id="t2" value="Bycicle">
+        Bycicle
+    </label>
+ </div>
+
+ <div>
+    <label for="t1">
+        <input type="checkbox" name="transport" id="t3" value="tram">
+        Tram
+    </label>
+ </div>
+
+ <button class="showResult">Show transport</button>
+ <div class="resultBox"></div>
+
+
+<!-- 4 -->
+
+<h3>Select skills</h3>
+
+<select name="skills" id="skills">
+
+<option value="">Select your skill</option>
+<option value="HTML">HTML</option>
+<option value="CSS">CSS</option>
+<option value="JS">JS</option>
+
+</select>
+<p class="skillResult">
+
+</p>
+
+
+</body>
+</html>

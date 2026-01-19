@@ -117,7 +117,6 @@ let DateToLocaleString = nowDate.toLocaleString();
         alert('Проиграш')
     }
 
- }
-
+}
    ourGame();
 

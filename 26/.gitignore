@@ -1,0 +1,22 @@
+# Configure gitignore
+
+node_modules/
+
+# Different files
+secret.txt
+config.env
+
+# ignore all files
+*.log
+*.tmp
+*.zip
+*.rar
+
+# ignore file redactors
+.vscode/
+
+# ignore directories
+test/
+
+# DS store ignore
+.DS_Store

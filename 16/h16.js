@@ -1,6 +1,9 @@
-window.onload = function() {
+window.onload = function(){
 
- 
+
+
+
+
     let menu = document.querySelector('.all');
     let items = document.querySelectorAll('.all li');
   
@@ -10,11 +13,10 @@ window.onload = function() {
         items.forEach(li=> li.classList.remove('active'));
         items[active].classList.add('active');
     }
-   
+    
     document.addEventListener('keydown', function(e) {
     if(e.key === 'm'|| e.key=== 'M') {
         menu.style.display = 'block';
-   
         highlightItem();
     };
     
@@ -46,7 +48,6 @@ window.onload = function() {
         
         
     });
-
 
 
 

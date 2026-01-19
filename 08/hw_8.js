@@ -79,7 +79,7 @@ const student = [
         console.log( `${value.name} has ${value.age} age and has grade ${value.grade}`);
     }
 
-    
+
     const students = [
         { name: 'Alice' , age: 20, grade: 'A'},
         

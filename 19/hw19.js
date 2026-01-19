@@ -15,14 +15,10 @@ let numbers = operation.match(/\d/g);
 console.log(numbers);
 
 
-
-
-
 //3
 
 let wordsStr = textStr.match(/\b[a-zA-Z]{5}\b/g);
 console.log(wordsStr);
-
 
     
 }
