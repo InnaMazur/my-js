@@ -1,0 +1,23 @@
+#Config
+
+
+node_modules/
+
+# Other files
+secret.txt
+config.env
+
+# Ignore all files
+*.log
+*.temp
+*.zip
+*.rar
+
+# Ignore file redactor
+.vscode/
+
+# Ignore directories
+test/
+
+#Ignore DS_Store files
+.DS_Store
