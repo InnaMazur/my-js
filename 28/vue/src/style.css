@@ -1,0 +1,12 @@
+
+.container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+.counter {
+  margin-top: 20px;
+}
+span {
+  margin: 0 20px;
+  font-size: 20px;
+}
